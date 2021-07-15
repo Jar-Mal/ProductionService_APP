@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 
 namespace ProductionServiceSystem.ModelsDTO
 {
-    public class OperationErrorDTO : OperationResultDTO
+    public class ModuleListDTO
     {
-        public int Code { get; set; }
+        public List<String> ModuleList { get; set; }
     }
 }

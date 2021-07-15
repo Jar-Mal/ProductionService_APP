@@ -5,7 +5,9 @@ using System.Threading.Tasks;
 
 namespace ProductionServiceSystem.ModelsDTO
 {
-    public class OperationSuccesDTO
+    public class OperationSuccesDTO<T> : OperationResultDTO
+        where T : class
     {
+        public T Result { get; set; }
     }
 }
