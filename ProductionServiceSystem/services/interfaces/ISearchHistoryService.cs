@@ -7,7 +7,7 @@ using ProductionServiceSystem.Models;
 
 namespace ProductionServiceSystem.services.interfaces
 {
-    interface ISearchHistoryService
+    public interface ISearchHistoryService
     {
         ResultCostDTO GetSearchHistory(string cityName, ModuleListDTO moduleListDTO);
         OperationSuccesDTO<IList<SearchHistory>> GetSearchHistories();

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProductionServiceSystem.services.interfaces
 {
-    interface ICalculatorCostService
+    public interface ICalculatorCostService
     {
         OperationResultDTO CalculateCost(string cityName, ModuleListDTO moduleListDTO);
     }

@@ -6,7 +6,7 @@ using ProductionServiceSystem.ModelsDTO;
 
 namespace ProductionServiceSystem.services.interfaces
 {
-    interface IShowResultService
+    public interface IShowResultService
     {
         ResultCostDTO PresentResult(string cityName, ModuleListDTO moduleListDTO);
     }

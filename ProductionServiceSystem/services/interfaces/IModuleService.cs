@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ProductionServiceSystem.services.interfaces
 {
-    interface IModuleService
+    public interface IModuleService
     {
         Module GetModuleByName(string moduleName);
         OperationSuccesDTO<List<Module>> GetModules();

@@ -7,7 +7,7 @@ using ProductionServiceSystem.ModelsDTO;
 
 namespace ProductionServiceSystem.services.interfaces
 {
-    interface ICityService
+    public interface ICityService
     {
         City GetCityByName(string cityName);
         OperationSuccesDTO<IList<City>> GetCities();
