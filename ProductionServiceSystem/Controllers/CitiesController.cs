@@ -58,6 +58,31 @@ namespace ProductionServiceSystem.Controllers
             return BadRequest(response.Message);
         }
 
+        [HttpPost]
+        [Route("Cities/AddCity")]
+        public IActionResult AddCity(City city)
+        {
+            if (city == null)
+                return BadRequest("Object is null.");
+            var response = _cityService.AddCity(city);
 
+            if (response.Message.Equals("Success"))
+                return Ok(response.Message);
+
+            return BadRequest("Error");
+        }
+        [HttpDelete]
+        [Route("Cities/DeleteCity/{name}")]
+        public IActionResult DeleteCity(string name)
+        {
+            if (name == null)
+                return BadRequest("City name is null.");
+
+            var response = _cityService.DeleteCity(name);
+            if (response.Message.Equals("Success"))
+                return Ok(response.Message);
+            
+            return BadRequest("Error");
+        }
     }
 }
