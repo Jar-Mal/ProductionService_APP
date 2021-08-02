@@ -1,21 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maleszyk.jaroslaw\\source\\repos\\ProductionService_APP\\ProductionServiceSystem\\ProductionServiceSystem.csproj": {}
+    "C:\\Users\\sonye\\Source\\Repos\\ProductionService_APP\\ProductionServiceSystem\\ProductionServiceSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maleszyk.jaroslaw\\source\\repos\\ProductionService_APP\\ProductionServiceSystem\\ProductionServiceSystem.csproj": {
+    "C:\\Users\\sonye\\Source\\Repos\\ProductionService_APP\\ProductionServiceSystem\\ProductionServiceSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maleszyk.jaroslaw\\source\\repos\\ProductionService_APP\\ProductionServiceSystem\\ProductionServiceSystem.csproj",
+        "projectUniqueName": "C:\\Users\\sonye\\Source\\Repos\\ProductionService_APP\\ProductionServiceSystem\\ProductionServiceSystem.csproj",
         "projectName": "ProductionServiceSystem",
-        "projectPath": "C:\\Users\\maleszyk.jaroslaw\\source\\repos\\ProductionService_APP\\ProductionServiceSystem\\ProductionServiceSystem.csproj",
-        "packagesPath": "C:\\Users\\maleszyk.jaroslaw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maleszyk.jaroslaw\\source\\repos\\ProductionService_APP\\ProductionServiceSystem\\obj\\",
+        "projectPath": "C:\\Users\\sonye\\Source\\Repos\\ProductionService_APP\\ProductionServiceSystem\\ProductionServiceSystem.csproj",
+        "packagesPath": "C:\\Users\\sonye\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sonye\\Source\\Repos\\ProductionService_APP\\ProductionServiceSystem\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\maleszyk.jaroslaw\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\sonye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
